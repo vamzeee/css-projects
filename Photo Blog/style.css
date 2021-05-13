@@ -12,6 +12,7 @@ nav{
     padding: 1em 0;
     font-family: Raleway, sans-serif;
     font-size: 1.5em;
+    transition-duration: 0.3s;
 }
 
 footer{
@@ -41,9 +42,15 @@ a{
     text-decoration: none;
     color: rgb(21, 63, 60);
     padding: 4px;
+    transition-duration: 0.3s;
 }
 
 a:hover{
-    background-color: #434442;
-    color: rgb(228, 229, 230);
+    background-color: rgb(21, 63, 60);
+    color: #f1f1f1;
+}
+
+nav:hover{
+    background-color: rgb(21, 63, 60);
+    color: #f1f1f1;
 }
